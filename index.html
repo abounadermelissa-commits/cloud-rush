@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Rush</title>
+     <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cloudrush" class="screen active">
+    <h1 id="title"><span id="cloudtitle">Cloud</span> <span id="rushtitle">Rush</span></h1>
+    <button id="startButton">Start Game</button>
+  </div>
+   <div id="select-character" class="screen">
+    <div id="select"></div>
+    <div id="selector">
+       <h1 id="title1">Select Your Character</h1>
+        <div id="characters">
+            <div id="character1" class="char-active" ></div>
+            <div id="character2" class="char-inactive"></div>  
+            <div id="character3" class="char-inactive"></div> 
+            <div id="character4" class="char-inactive"></div>
+            <div id="character5" class="char-inactive"></div>
+            <div id="character6" class="char-inactive"></div>
+        </div>
+        <button id="previous">&lt;</button>
+        <button id="next">&gt;</button>
+        <button id="choose">Choose</button>
+    </div>
+  </div>
+  <div id="game"> 
+    <div id="player">
+    <div id="player1"></div>
+    <div id="player2"></div>  
+    <div id="player3"></div> 
+    <div id="player4"></div>
+    <div id="player5"></div>
+    <div id="player6"></div>
+    </div>
+    <button id="start">Start</button>
+    <p>Move the keys up and Down! Enjoy</p>
+    <h5 id="score">Score=0</h5>
+    <div id="game-over" class="hidden">
+      <h2>Game Over</h2>
+      <p>Your score: <span id="final-score">0</span></p>
+      <button id="play-again">Play Again</button>
+</div>
+  </div>
+  <script src="script.js"> </script>
+</body>
+</html>
